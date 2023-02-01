@@ -14,12 +14,6 @@ main div img {
   display: block;
   text-align: center;
 }
-main div p{
-  font-size: 20px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
-
-}
 
 .barracol {
   background-color: grey;
@@ -45,7 +39,7 @@ main div img {
 }
 
 .fondo {
-  background-image: url(../img/fondomaq.jpg);
+  background-image: url(../img/newfondooo1.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -97,10 +91,25 @@ section div.desc {
 
 /*sucursales*/
 #conteiner__suc {
-  background-image: url(../img/carrusel/fond.jpg);
+  background-image: url(../img/agriculturafond.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+/*contacto*/
+#conteiner__cont {
+  background-image: url(../img/fondocontacto.jpg.crdownload);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.letraini p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
