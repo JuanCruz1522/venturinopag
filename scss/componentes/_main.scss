@@ -6,21 +6,54 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        
+}
+
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #conteiner__ind .letra{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: azure;
+    font-family: $tip-two;
+    
 }
 
 main div p{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: aliceblue;
+
   }
   
   #conteiner__nos div p{
     font-size: 15px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
+
+  main div {
+    text-align: center;
+  }
+  main div img {
+    display: block;
+    text-align: center;
+  }
+  
+
+  main div{
+
+    text-align: center;
+    img{
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+#conteiner_contwo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
