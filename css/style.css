@@ -34,10 +34,12 @@ body {
   overflow-x: hidden;
 }
 
-footer a {
-  font-size: 30px;
-  position: relative;
-  left: 20px;
+.lookfoot {
+  background-color: darkolivegreen;
+}
+
+.posicon {
+  justify-content: left;
 }
 
 /*Letra parrafo index*/
@@ -50,7 +52,7 @@ footer a {
 
 /*barra de navegacion*/
 .barracol {
-  background-color: grey;
+  background-color: darkolivegreen;
 }
 
 #conteiner__cont .poscont {
@@ -108,6 +110,11 @@ main div img {
   flex-wrap: wrap;
 }
 
+.conteiner {
+  margin-top: 10px;
+  width: auto;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -141,6 +148,7 @@ section div.desc {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
